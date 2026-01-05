@@ -41,10 +41,6 @@ function openBank(bank) {
       android: "intent://#Intent;package=ge.bog.mobilebank;end",
       web: "https://bog.ge"
     },
-    bogKids: {
-      android: "intent://#Intent;package=ge.bog.mbankjunior;scheme=bogscool;end",
-      web: "https://bog.ge/kids"
-    },
     tbc: {
       android: "intent://#Intent;package=ge.tbc.mobilebank;end",
       web: "https://www.tbcbank.ge"
