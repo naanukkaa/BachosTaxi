@@ -42,7 +42,7 @@ function openBank(bank) {
       web: "https://bog.ge"
     },
     bogKids: {
-      android: "intent://#Intent;package=ge.bog.mbankjunior;end",
+      android: "intent://#Intent;package=ge.bog.mbankjunior;scheme=bogscool;end",
       web: "https://bog.ge/kids"
     },
     tbc: {
