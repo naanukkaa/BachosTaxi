@@ -1,6 +1,6 @@
 const translations = {
   ka: {
-    title: "ტაქსის გადახდა",
+    title: "მგზავრობის საფასურის გადახდა",
     contactText: "დამიკავშირდით ან ეწვიეთ ჩემს გვერდს",
   facebookBtn: "Facebook",
   whatsappBtn: "WhatsApp",
@@ -14,7 +14,7 @@ const translations = {
     iban: "ანგარიშის ნომერი",
     copy: "ანგარიშის ნომრის ასლის გაკეთება",
     pay: "განახორციელეთ ჩარიცხვა",
-    how: "როგორ მუშაობს?",
+    how: "როგორ გადავიხადოთ?",
     step1: "აირჩიეთ ბანკი",
     step2: "დააკოპირეთ ანგარიშის ნომერი",
     step3: "გახსენით ბანკის აპლიკაცია",
@@ -35,14 +35,14 @@ const translations = {
     iban: "Account number",
     copy: "Copy account number",
     pay: "Make transfer",
-    how: "How does it work?",
+    how: "How to pay?",
     step1: "Choose a bank",
     step2: "Copy the account number",
     step3: "Open your bank app",
     step4: "Paste, enter amount and confirm"
   },
   ru: {
-    title: "Оплата такси",
+    title: "Оплата поездки",
     contactText: "Свяжитесь со мной или посетите страницу",
     facebookBtn: "Facebook",
     whatsappBtn: "WhatsApp",
@@ -56,7 +56,7 @@ const translations = {
     iban: "Номер счёта",
     copy: "Скопировать номер счёта",
     pay: "Осуществить перевод",
-    how: "Как это работает?",
+    how: "Как оплатить?",
     step1: "Выберите банк",
     step2: "Скопируйте номер счёта",
     step3: "Откройте банковское приложение",
