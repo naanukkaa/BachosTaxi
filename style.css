@@ -173,3 +173,8 @@ ol {
   filter: brightness(0.9);
   transform: scale(1.05);
 }
+
+.overlay .pay-btn {
+  display: block;
+  margin: 8px 0;
+}
