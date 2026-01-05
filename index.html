@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Taxi Pay</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <button onclick="toggleTheme()">🌓</button>
+  <button onclick="toggleLang()">🌐</button>
+</header>
+
+<main>
+  <h1 data-i18n="title"></h1>
+  <p data-i18n="choose"></p>
+
+  <div class="bank-grid">
+    <a href="bog.html" class="bank-card" data-i18n="BOG"></a>
+    <a href="tbc.html" class="bank-card" data-i18n="TBC"></a>
+    <a href="liberty.html" class="bank-card" data-i18n="LIB"></a>
+  </div>
+
+  <section class="social">
+    <p class="social-text" data-i18n="contactText"></p>
+    <a
+      href="https://www.facebook.com/profile.php?id=100080399144607"
+      target="_blank"
+      rel="noopener"
+      class="facebook-btn"
+      data-i18n="facebookBtn"
+    ></a>
+
+    <a
+      href="https://wa.me/995551124134"
+      target="_blank"
+      rel="noopener"
+      class="whatsapp-btn"
+      data-i18n="whatsappBtn"
+    ></a>
+  </section>
+
+  <section class="how">
+    <h2 data-i18n="how"></h2>
+    <ol>
+      <li data-i18n="step1"></li>
+      <li data-i18n="step2"></li>
+      <li data-i18n="step3"></li>
+      <li data-i18n="step4"></li>
+    </ol>
+  </section>
+</main>
+
+<script src="i18n.js"></script>
+<script src="ui.js"></script>
+</body>
+</html>

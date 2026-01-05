@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width">
+  <title>BoG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <button onclick="toggleTheme()">🌓</button>
+  <button onclick="toggleLang()">🌐</button>
+</header>
+
+<main>
+  <div>
+    <a href="index.html" class="back-btn" data-i18n="back">უკან</a>
+  </div>
+  <div class="bank-card">
+    <h2 data-i18n="BOG"></h2>
+
+    <div class="overlay">
+      <p><strong data-i18n="receiver"></strong>: <span data-i18n="person"></span></p>
+      <p><strong data-i18n="iban"></strong>:
+        <span id="iban">GE73BG0000000541403541</span>
+      </p>
+
+      <button onclick="copyIBAN('iban')" class="pay-btn" data-i18n="copy"></button>
+      <a
+        href="#"
+        class="pay-btn"
+        data-i18n="pay"
+        onclick="openBank('bog')"
+      ></a>
+    </div>
+  </div>
+</main>
+
+<script src="i18n.js"></script>
+<script src="ui.js"></script>
+</body>
+</html>
